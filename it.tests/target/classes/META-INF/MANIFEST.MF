@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1528712276787
+Build-Jdk: 1.8.0_162
+Built-By: aayush.agrawal
+Bundle-Description: Bundles for Integration Tests for delta
+Bundle-ManifestVersion: 2
+Bundle-Name: delta - Integration Tests Bundles
+Bundle-SymbolicName: delta.App.it.tests
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.aem.delta.it.tests;version="1.0.0";uses:="org.apache
+ .sling.junit.annotations,org.junit,org.junit.runner"
+Import-Package: com.aem.delta.core.models;version="[1.0,2)",org.apache.s
+ ling.junit.annotations;version="[1.0,2)",org.apache.sling.settings;vers
+ ion="[1.3,2)",org.junit,org.junit.runner
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.6))"
+Sling-Test-Regexp: .*Test
+Tool: Bnd-2.3.0.201405100607

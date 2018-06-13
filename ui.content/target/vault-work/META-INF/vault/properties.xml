@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>delta - UI content</comment>
+<entry key="createdBy">aayush.agrawal</entry>
+<entry key="name">deltaApp.ui.content</entry>
+<entry key="created">2018-06-11T15:47:51.513+0530</entry>
+<entry key="groupId">delta</entry>
+<entry key="version">1.0-SNAPSHOT</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">delta</entry>
+<entry key="description">UI content package for delta</entry>
+<entry key="artifactId">deltaApp.ui.content</entry>
+<entry key="path">/etc/packages/delta/deltaApp.ui.content.zip</entry>
+</properties>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/com.aem.delta.core.servlets.SimpleServlet">
+    <OCD id="com.aem.delta.core.servlets.SimpleServlet" name="%com.aem.delta.core.servlets.SimpleServlet.name" description="%com.aem.delta.core.servlets.SimpleServlet.description">
+        <AD id="sling.servlet.paths" type="String" default="/bin/delta/flightpage" name="%com.aem.delta.core.servlets.SimpleServlet.sling.servlet.paths.name" description="%com.aem.delta.core.servlets.SimpleServlet.sling.servlet.paths.description"/>
+        <AD id="sling.servlet.extensions" type="String" default="json" name="%com.aem.delta.core.servlets.SimpleServlet.sling.servlet.extensions.name" description="%com.aem.delta.core.servlets.SimpleServlet.sling.servlet.extensions.description"/>
+        <AD id="sling.servlet.methods" type="String" default="GET" name="%com.aem.delta.core.servlets.SimpleServlet.sling.servlet.methods.name" description="%com.aem.delta.core.servlets.SimpleServlet.sling.servlet.methods.description"/>
+    </OCD>
+    <Designate pid="com.aem.delta.core.servlets.SimpleServlet">
+        <Object ocdref="com.aem.delta.core.servlets.SimpleServlet"/>
+    </Designate>
+</metatype:MetaData>
