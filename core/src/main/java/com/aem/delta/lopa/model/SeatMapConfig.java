@@ -2,18 +2,16 @@ package com.aem.delta.lopa.model;
 
 import java.util.List;
 
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlAttribute;
-import javax.xml.bind.annotation.XmlRootElement;
-
-import com.google.gson.annotations.SerializedName;
-
-@XmlAccessorType(XmlAccessType.FIELD)
-@XmlRootElement(name = "java")
+/**
+ * @author aayush.agrawal
+ *
+ */
+/**
+ * @author aayush.agrawal
+ *
+ */
 public class SeatMapConfig {
 
-	@SerializedName("property")
 	private String aircraftModel;
 
 	private String subfleetCode;
@@ -22,7 +20,6 @@ public class SeatMapConfig {
 
 	private List<String> aircraftCodes;
 
-	
 	public String getAircraftModel() {
 		return aircraftModel;
 	}
