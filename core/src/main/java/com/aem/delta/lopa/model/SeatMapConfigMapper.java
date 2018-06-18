@@ -11,18 +11,22 @@ import javax.xml.xpath.XPathConstants;
 import javax.xml.xpath.XPathExpression;
 import javax.xml.xpath.XPathFactory;
 
+import org.apache.felix.scr.annotations.Component;
+import org.apache.felix.scr.annotations.Service;
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
+@Component(immediate = true, metatype = false, label = "SeatMapConfigMapper")
+@Service(value = { SeatMapConfigMapper.class })
 public class SeatMapConfigMapper {
-	public static void main(String[] args) {
 
-		File file = new File("C:\\Users\\aayush.agrawal\\Downloads\\lopaConfig.xml");
-
+	public SeatMapConfig getSeatMapConfigObject() {
 		SeatMapConfig seatMapConfig = new SeatMapConfig();
-
 		try {
+
+			File file = new File("C:\\Users\\aayush.agrawal\\Downloads\\lopaConfig.xml");
+
 			DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder builder = factory.newDocumentBuilder();
 			Document doc = builder.parse(file);
@@ -100,5 +104,7 @@ public class SeatMapConfigMapper {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+		return seatMapConfig;
 	}
+
 }

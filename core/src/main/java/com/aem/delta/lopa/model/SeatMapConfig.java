@@ -6,10 +6,6 @@ import java.util.List;
  * @author aayush.agrawal
  *
  */
-/**
- * @author aayush.agrawal
- *
- */
 public class SeatMapConfig {
 
 	private String aircraftModel;

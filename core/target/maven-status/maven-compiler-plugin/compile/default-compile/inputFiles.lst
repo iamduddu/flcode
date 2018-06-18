@@ -1,7 +1,9 @@
 C:\FLCode\deltaApp\core\src\main\java\com\aem\delta\core\schedulers\SimpleScheduledTask.java
+C:\FLCode\deltaApp\core\src\main\java\com\aem\delta\lopa\model\LopaConfig.java
+C:\FLCode\deltaApp\core\src\main\java\com\aem\delta\lopa\model\SeatMapConfig.java
 C:\FLCode\deltaApp\core\src\main\java\com\aem\delta\core\package-info.java
-C:\FLCode\deltaApp\core\src\main\java\com\aem\delta\core\servlets\XMLToJSONConversion.java
 C:\FLCode\deltaApp\core\src\main\java\com\aem\delta\core\servlets\SimpleServlet.java
 C:\FLCode\deltaApp\core\src\main\java\com\aem\delta\core\listeners\SimpleResourceListener.java
+C:\FLCode\deltaApp\core\src\main\java\com\aem\delta\lopa\model\SeatMapConfigMapper.java
 C:\FLCode\deltaApp\core\src\main\java\com\aem\delta\core\filters\LoggingFilter.java
 C:\FLCode\deltaApp\core\src\main\java\com\aem\delta\core\models\HelloWorldModel.java

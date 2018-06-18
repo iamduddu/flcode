@@ -35,6 +35,7 @@ import org.apache.sling.api.resource.ResourceResolverFactory;
 import org.apache.sling.api.servlets.SlingAllMethodsServlet;
 import org.apache.sling.api.servlets.SlingSafeMethodsServlet;
 
+import com.aem.delta.lopa.model.SeatMapConfigMapper;
 import com.day.cq.wcm.api.Page;
 import com.day.cq.wcm.api.PageManager;
 import com.day.cq.wcm.api.WCMException;
@@ -60,12 +61,17 @@ public class SimpleServlet extends SlingSafeMethodsServlet {
 
 	@Reference
 	private transient ResourceResolverFactory resolverFactory;
-
+	
+	@Reference
+	private transient SeatMapConfigMapper seatMapConfigMapper;
+	
 	@Override
 	protected void doGet(final SlingHttpServletRequest request, final SlingHttpServletResponse resp)
 			throws ServletException, IOException {
 
 		try {
+			System.out.println("Aircraft-------->"+seatMapConfigMapper.getSeatMapConfigObject().getAircraftCodes());
+			
 			Page prodPage = null;
 			ResourceResolver resolver = request.getResourceResolver();
 			PageManager pageManager = resolver.adaptTo(PageManager.class);

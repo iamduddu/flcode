@@ -1,2 +1,9 @@
-com\aem\delta\core\models\HelloWorldModel.class
+com\aem\delta\core\schedulers\SimpleScheduledTask.class
+com\aem\delta\lopa\model\SeatMapConfigMapper.class
 com\aem\delta\core\package-info.class
+com\aem\delta\core\servlets\SimpleServlet.class
+com\aem\delta\core\filters\LoggingFilter.class
+com\aem\delta\lopa\model\SeatMapConfig.class
+com\aem\delta\core\listeners\SimpleResourceListener.class
+com\aem\delta\core\models\HelloWorldModel.class
+com\aem\delta\lopa\model\LopaConfig.class
